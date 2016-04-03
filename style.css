@@ -38,5 +38,5 @@ a, a:link, a:visited {
     display: block;
 }
 .index {
-
+	display: none;
 }
