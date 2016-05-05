@@ -14,7 +14,9 @@
 <body <?php body_class(); ?>>
 	<div id="container">
 		<div id="header">
-			<a href="<?php echo home_url(); ?>" class="blogTitle"><?php bloginfo('name'); ?></a>
+			<a href="#" onclick="history.back(); return false;" class="singleTitle">
+				<span class="backbtn"></span><?php the_title(); ?>
+			</a>
 			<span class="menubtn"></span>
 			<?php if ( ! dynamic_sidebar("top_menu") ) : ?>
 			<?php endif; ?>

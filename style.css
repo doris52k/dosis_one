@@ -7,17 +7,66 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6, header, footer, span, a, p, article {
-	font-size: 24px;
+	font-size: 18px;
 	text-decoration: none;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
+	word-break: break-all;
+}
+ul {
+	list-style-type: none;
 }
 a, a:link, a:visited {
 	list-style-type: none;
 	color: #000;
 }
+#main {
+	width: 100%;
+	display: inline-block;
+}
 
 /* header */
+#header {
+	/*height: 21px;*/
+	padding: 16px 12px;
+}
+.menubtn {
+	width: 19px;
+	height: 15px;
+	background: url(image/button_x2.gif) no-repeat 0 0;
+	background-size: 50px 50px;
+	float: right;
+}
+.blogTitle {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 0.75;
+}
+.singleTitle {
+	line-height: 0.5;
+}
+.backbtn {
+	width: 12px;
+	height: 16px;
+	background: url(image/button_x2.gif) no-repeat 0 -20px;
+	background-size: 50px 50px;
+	float: left;
+	margin-right: 2px;
+}
+.widgettitle {
+	display: none;
+}
+.top_menu ul li {
+	padding: 0 0 12px 0;
+	text-align: center;
+}
+.top_menu a {
+	font-size: 20px;
+}
+.top_menu {
+	margin-top: 12px;
+	display: none;
+}
 
 /* contents */
 .index_article_thumb {
@@ -29,14 +78,61 @@ a, a:link, a:visited {
 	padding-bottom: 50%;
 }
 
-#content article {
+.index_article {
 	margin-bottom: 40px;
 }
-
-.index_article_title {
+.index_title {
     margin: 12px;
+    margin-top: 8px;
     display: block;
 }
-.index {
-	/*display: none;*/
+.single_title {
+	margin-left: 12px;
+}
+.single_content img{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.single_content p, .single_content a, .single_content h1, .single_content h2, .single_content h3, .single_content h4, .single_content h5, .single_content h6 {
+	margin: 12px;
+	line-height: 1.4;
+}
+
+/* footer */
+#footer {
+	padding-left: 12px;
+	margin-top: 80px;
+	padding-bottom: 20px;
+}
+#footer span {
+	font-size: 16px;
+	color: #999;
+	line-height: 2;
+}
+
+@media (min-width: 1024px) and (min-height: 670px) {
+	#container {
+		width: 96%;
+		margin: auto;
+	}
+	.index_article {
+	    width: 33.33%;
+	    float: left;
+	}
+	.index_title {
+		height: 28px;
+	}
+	#header {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.single_content {
+	    margin-top: 80px;
+	}
+	.single_content p, .single_content a, .single_content h1, .single_content h2, .single_content h3, .single_content h4, .single_content h5, .single_content h6 {
+		margin-left: 0;
+		margin-right: 0;
+		line-height: 1.4;
+	}
 }
