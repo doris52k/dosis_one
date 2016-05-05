@@ -38,7 +38,7 @@ a, a:link, a:visited {
 	float: right;
 }
 .blogTitle {
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 700;
 	line-height: 0.75;
 }
@@ -85,7 +85,7 @@ a, a:link, a:visited {
     margin: 12px;
     margin-top: 8px;
     display: block;
-    font-size: 20px;
+    font-size: 21px;
 }
 .single_title {
 	margin-left: 12px;
