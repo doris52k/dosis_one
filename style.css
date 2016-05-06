@@ -41,13 +41,13 @@ a, a:link, a:visited {
 
 }
 .bar_one, .bar_two {
-	transition-duration: 0.5s;
 	width: 26px;
 	height: 4px;
 	border-radius: 2px;
 	background-color: #000;
 	position: absolute;
 	top: 11px;
+	transition-duration: 0.5s;
 }
 .menubtn .bar_one {
 	top: 7px;
