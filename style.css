@@ -24,7 +24,7 @@ a, a:link, a:visited {
 	width: 100%;
 	display: inline-block;
 }
-.preload * {
+.preload  {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
