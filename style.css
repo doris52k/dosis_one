@@ -27,8 +27,8 @@ a, a:link, a:visited {
 
 /* header */
 #header {
-	height: 40px;
 	padding: 16px 12px;
+	margin-bottom: 22px;
 }
 .menubtn {
 	width: 23px;
