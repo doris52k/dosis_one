@@ -31,13 +31,14 @@ a, a:link, a:visited {
 	margin-bottom: 22px;
 }
 .menubtn, .menubtn_close {
+	position: relative;
 	width: 26px;
 	height: 26px;
 	/*background: url(image/button_x2.png) no-repeat 0 0;*/
 	background-size: 50px 50px;
 	float: right;
 	margin-top: -3px;
-	/*position: relative;*/
+
 }
 .bar_one, .bar_two {
 	transition-duration: 0.5s;
