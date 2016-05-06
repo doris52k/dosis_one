@@ -17,7 +17,7 @@
 			<a href="#" onclick="history.back(); return false;" class="singleTitle">
 				<span class="backbtn"></span><?php the_title(); ?>
 			</a>
-			<span class="menubtn"></span>
+			<div class="menubtn"></div>
 			<?php if ( ! dynamic_sidebar("top_menu") ) : ?>
 			<?php endif; ?>
 		</div>

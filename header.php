@@ -15,7 +15,7 @@
 	<div id="container">
 		<div id="header">
 			<a href="<?php echo home_url(); ?>" class="blogTitle"><?php bloginfo('name'); ?></a>
-			<span class="menubtn"></span>
+			<div class="menubtn"></div>
 			<?php if ( ! dynamic_sidebar("top_menu") ) : ?>
 			<?php endif; ?>
 		</div>
