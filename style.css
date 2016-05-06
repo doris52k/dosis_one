@@ -86,11 +86,11 @@ a, a:link, a:visited {
 	display: none;
 }
 .top_menu ul li {
-	padding: 0 0 12px 0;
+	padding: 0 0 16px 0;
 	text-align: center;
 }
 .top_menu a {
-	font-size: 20px;
+	font-size: 22px;
 }
 .top_menu {
 	margin-top: 24px;
