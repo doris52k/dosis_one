@@ -37,7 +37,7 @@ a, a:link, a:visited {
 	background-size: 50px 50px;
 	float: right;
 	margin-top: -3px;
-
+	transition-duration: 0.5s;
 }
 .bar_one, .bar_two {
 	width: 26px;
@@ -54,14 +54,12 @@ a, a:link, a:visited {
 	top: 15px;
 }
 .menubtn_close .bar_one {
-	transition-duration: 0.5s;
 	top: 11px;
 	-ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 .menubtn_close .bar_two {
-	transition-duration: 0.5s;
 	top: 11px;
 	-ms-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
