@@ -37,7 +37,6 @@ a, a:link, a:visited {
 	background-size: 50px 50px;
 	float: right;
 	margin-top: -3px;
-	transition-duration: 0.5s;
 }
 .bar_one, .bar_two {
 	width: 26px;
@@ -45,7 +44,7 @@ a, a:link, a:visited {
 	border-radius: 2px;
 	background-color: #000;
 	position: absolute;
-	top: 11px;
+	transition-duration: 0.5s;
 }
 .menubtn .bar_one {
 	top: 7px;
