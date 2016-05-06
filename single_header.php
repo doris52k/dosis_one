@@ -12,12 +12,19 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="container" class="preload">
+	<div id="container">
 		<div id="header">
 			<a href="#" onclick="history.back(); return false;" class="singleTitle">
-				<span class="backbtn"></span><?php the_title(); ?>
+				<div class="backbtn">
+					<div class="back_bar_one"></div>
+					<div class="back_bar_two">
+				</div>
+				</div><?php the_title(); ?>
 			</a>
-			<div class="menubtn"></div>
+			<div class="menubtn" id="menubtn_id">
+				<div class="bar_one"></div>
+				<div class="bar_two"></div>
+			</div>
 			<?php if ( ! dynamic_sidebar("top_menu") ) : ?>
 			<?php endif; ?>
 		</div>

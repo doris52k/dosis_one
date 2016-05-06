@@ -12,9 +12,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="container" class="preload">
+	<div id="container">
 		<div id="header">
-			<a href="<?php echo home_url(); ?>" class="blogTitle"><?php bloginfo('name'); ?></a>
+			<a href="<?php echo home_url(); ?>" class="blogTitle">
+				<?php bloginfo('name'); ?>
+			</a>
 			<div class="menubtn" id="menubtn_id">
 				<div class="bar_one"></div>
 				<div class="bar_two"></div>

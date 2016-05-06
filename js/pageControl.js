@@ -1,6 +1,3 @@
-$(window).load(function() {
-	$("#container").removeClass("preload");
-});
 $(document).ready(function(){
 	var topMenuNum = 0
 	function topMenuSwap(){
