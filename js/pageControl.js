@@ -8,7 +8,7 @@ $(document).ready(function(){
 			$("#menubtn_id").attr('class', 'menubtn_close')
 			topMenuNum = 1;
 		}else{
-			$(".blogTitle").css("display", "inline-block");
+			// $(".blogTitle").css("display", "inline-block");
 			$(".singleTitle").css("visibility", "visible");
 			$(".top_menu").css("display", "none");
 			$("#menubtn_id").attr('class', 'menubtn')
