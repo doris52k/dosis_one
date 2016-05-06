@@ -69,6 +69,7 @@ a, a:link, a:visited {
 	font-weight: 700;
 	line-height: 0.75;
 	float: left;
+    display: inline-block;
 }
 .singleTitle {
 	line-height: 0.5;
