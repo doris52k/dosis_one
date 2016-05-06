@@ -2,13 +2,13 @@ $(document).ready(function(){
 	var topMenuNum = 0
 	function topMenuSwap(){
 		if (topMenuNum == 0) {
-			$(".blogTitle").css("visibility", "hidden");
+			$(".blogTitle").css("display", "none");
 			$(".singleTitle").css("visibility", "hidden");
 			$(".top_menu").css("display", "block");
 			$("#menubtn_id").attr('class', 'menubtn_close')
 			topMenuNum = 1;
 		}else{
-			$(".blogTitle").css("visibility", "visible");
+			$(".blogTitle").css("display", "inline-block");
 			$(".singleTitle").css("visibility", "visible");
 			$(".top_menu").css("display", "none");
 			$("#menubtn_id").attr('class', 'menubtn')
