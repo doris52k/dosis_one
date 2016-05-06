@@ -18,7 +18,7 @@ $(document).ready(function(){
 	$("#menubtn_id").click(function(){
 		topMenuSwap();
 	});
-	$(window).load(function() {
-		$("#container").removeClass("preload");
-	});
+});
+$(window).load(function() {
+	$("#container").removeClass("preload");
 });
