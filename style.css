@@ -34,7 +34,6 @@ a, a:link, a:visited {
 	position: relative;
 	width: 26px;
 	height: 26px;
-	/*background: url(image/button_x2.png) no-repeat 0 0;*/
 	background-size: 50px 50px;
 	float: right;
 	margin-top: -3px;
@@ -47,12 +46,13 @@ a, a:link, a:visited {
 	background-color: #000;
 	position: absolute;
 	top: 11px;
-	transition-duration: 0.5s;
 }
 .menubtn .bar_one {
+	transition-duration: 0.5s;
 	top: 7px;
 }
 .menubtn .bar_two {
+	transition-duration: 0.5s;
 	top: 15px;
 }
 /*.menubtn_close .bar_one {
