@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div id="main">
-	<div id="content">
+	<div id="content" >
 		<?php if ( have_posts() ) : while (have_posts()) : the_post(); ?>
 			<article class="index_article">
 				<a href="<?php the_permalink(); ?>">

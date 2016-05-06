@@ -24,6 +24,12 @@ a, a:link, a:visited {
 	width: 100%;
 	display: inline-block;
 }
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
 
 /* header */
 #header {
@@ -56,12 +62,14 @@ a, a:link, a:visited {
 	top: 11px;
 	-ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 .menubtn_close .bar_two {
 	top: 11px;
 	-ms-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
 .blogTitle {
