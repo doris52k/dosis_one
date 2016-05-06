@@ -31,11 +31,12 @@ a, a:link, a:visited {
 	padding: 16px 12px;
 }
 .menubtn {
-	width: 19px;
-	height: 15px;
+	width: 23px;
+	height: 25px;
 	background: url(image/button_x2.png) no-repeat 0 0;
 	background-size: 50px 50px;
 	float: right;
+	margin-top: -2px;
 }
 .blogTitle {
 	font-size: 28px;
