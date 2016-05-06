@@ -1,3 +1,6 @@
+$(window).load(function() {
+	$("#container").removeClass("preload");
+});
 $(document).ready(function(){
 	var topMenuNum = 0
 	function topMenuSwap(){
@@ -18,7 +21,4 @@ $(document).ready(function(){
 	$("#menubtn_id").click(function(){
 		topMenuSwap();
 	});
-});
-$(window).load(function() {
-	$("#container").removeClass("preload");
 });
