@@ -30,13 +30,41 @@ a, a:link, a:visited {
 	padding: 16px 12px;
 	margin-bottom: 22px;
 }
-.menubtn {
-	width: 23px;
-	height: 25px;
-	background: url(image/button_x2.png) no-repeat 0 0;
+.menubtn, .menubtn_close {
+	width: 26px;
+	height: 26px;
+	/*background: url(image/button_x2.png) no-repeat 0 0;*/
 	background-size: 50px 50px;
 	float: right;
 	margin-top: -3px;
+	position: relative;
+}
+.bar_one, .bar_two {
+	transition-duration: 0.5s;
+	width: 26px;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #000;
+	position: absolute;
+	top: 11px;
+}
+.menubtn .bar_one {
+	top: 7px;
+}
+.menubtn .bar_two {
+	top: 15px;
+}
+.menubtn_close .bar_one {
+	top: 11px;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.menubtn_close .bar_two {
+	top: 11px;
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 .blogTitle {
 	font-size: 28px;
@@ -45,14 +73,6 @@ a, a:link, a:visited {
 }
 .singleTitle {
 	line-height: 0.5;
-}
-.backbtn {
-	width: 12px;
-	height: 16px;
-	background: url(image/button_x2.png) no-repeat 0 -20px;
-	background-size: 50px 50px;
-	float: left;
-	margin-right: 2px;
 }
 .widgettitle {
 	display: none;

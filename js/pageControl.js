@@ -4,18 +4,18 @@ $(document).ready(function(){
 		if (topMenuNum == 0) {
 			$(".blogTitle").css("visibility", "hidden");
 			$(".singleTitle").css("visibility", "hidden");
-			$(".menubtn").css("background-position", "-26px 0");
 			$(".top_menu").css("display", "block");
+			$("#menubtn_id").attr('class', 'menubtn_close')
 			topMenuNum = 1;
 		}else{
 			$(".blogTitle").css("visibility", "visible");
 			$(".singleTitle").css("visibility", "visible");
-			$(".menubtn").css("background-position", "0 0");
 			$(".top_menu").css("display", "none");
+			$("#menubtn_id").attr('class', 'menubtn')
 			topMenuNum = 0;
 		};
 	};
-	$(".menubtn").click(function(){
+	$("#menubtn_id").click(function(){
 		topMenuSwap();
-	})
+	});
 });
