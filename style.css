@@ -78,6 +78,7 @@ a, a:link, a:visited {
 	line-height: 0.75;
 	float: left;
     display: inline-block;
+    font-weight: 700;
 }
 /* menu bar */
 	.backbtn {
