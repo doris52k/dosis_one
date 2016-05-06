@@ -54,7 +54,7 @@ a, a:link, a:visited {
 .menubtn .bar_two {
 	top: 15px;
 }
-.menubtn_close .bar_one {
+/*.menubtn_close .bar_one {
 	top: 11px;
 	-ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
@@ -65,7 +65,7 @@ a, a:link, a:visited {
 	-ms-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-}
+}*/
 .blogTitle {
 	font-size: 28px;
 	font-weight: 700;
