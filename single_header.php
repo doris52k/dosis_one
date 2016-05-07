@@ -16,8 +16,8 @@
 		<div id="header">
 			<a href="#" onclick="history.back(); return false;" class="singleTitle">
 				<div class="backButton">
-					<div class="back_bar_one"></div>
-					<div class="back_bar_two">
+					<div class="backButton_bar_one"></div>
+					<div class="backButton_bar_two">
 				</div>
 				</div><?php the_title(); ?>
 			</a>

@@ -97,6 +97,30 @@ a, a:link, a:visited {
     display: inline-block;
     font-weight: 700;
 }
+	/* back button */
+	.backButton {
+		position: relative;
+		float: left;
+		width: 26px;
+		height: 26px;
+		margin-top: -3px;
+	}
+	.backButton_bar_one, .backButton_bar_two {
+		width: 16px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #000;
+		position: absolute;
+		transition-duration: 0.3s;
+	}
+	.backButton_bar_one {
+		top: 16px;
+		transform: rotate(45deg);
+	}
+	.backButton_bar_two {
+		top: 6px;
+		transform: rotate(-45deg);
+	}
 /* header end */
 
 /* contents */
