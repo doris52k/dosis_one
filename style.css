@@ -40,7 +40,6 @@ a, a:link, a:visited {
 	line-height: 0.75;
 	float: left;
     display: inline-block;
-    transition-duration: 0.3s;
 }
 .widgettitle {
 	display: none;
@@ -64,24 +63,21 @@ a, a:link, a:visited {
 		height: 26px;
 		margin-top: -3px;
 	}
-	.categoryButton_bar_one {
+	.categoryButton_bar_one, .categoryButton_bar_two {
 		width: 26px;
 		height: 4px;
 		border-radius: 2px;
 		background-color: #000;
 		position: absolute;
+		/*transition-duration: 0.3s;*/
+	}
+	.categoryButton_bar_one {
 		top: 7px;
-		transition-duration: 0.3s;
 	}
 	.categoryButton_bar_two {
-		width: 26px;
-		height: 4px;
-		border-radius: 2px;
-		background-color: #000;
-		position: absolute;
 		top: 14px;
-		transition-duration: 0.3s;
 	}
+
 /* single header */
 .singleTitle {
 	font-size: 24px;
