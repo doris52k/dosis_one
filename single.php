@@ -3,9 +3,7 @@
 	<div id="content">
 		<?php if ( have_posts() ) : while (have_posts()) : the_post(); ?>
 			<article class="single_article">
-				<div class="single_content">
-					<?php the_content(); ?>
-				</div>
+				<?php the_content(); ?>
 			</article>
 		<?php endwhile; else: ?>
 			<h2>What?!</h2>

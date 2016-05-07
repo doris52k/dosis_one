@@ -6,14 +6,14 @@ $(document).ready(function(){
 			$(".singleTitle").css("visibility", "hidden");
 			$(".backbtn").css("visibility", "hidden");
 			$(".top_menu").css("display", "block");
-			$("#menubtn_id").attr('class', 'menubtn_close')
+			// $("#menubtn_id").attr('class', 'menubtn_close')
 			topMenuNum = 1;
 		}else{
 			$(".blogTitle").css("visibility", "visible");
 			$(".singleTitle").css("visibility", "visible");
 			$(".backbtn").css("visibility", "visible");
 			$(".top_menu").css("display", "none");
-			$("#menubtn_id").attr('class', 'menubtn')
+			// $("#menubtn_id").attr('class', 'menubtn')
 			topMenuNum = 0;
 		};
 	};

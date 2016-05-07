@@ -17,9 +17,9 @@
 			<a href="<?php echo home_url(); ?>" class="blogTitle">
 				<?php bloginfo('name'); ?>
 			</a>
-			<div class="menubtn" id="menubtn_id">
-				<div class="bar_one"></div>
-				<div class="bar_two"></div>
+			<div class="categoryButton" id="menubtn_id">
+				<div class="categoryButton_bar_one"></div>
+				<div class="categoryButton_bar_two"></div>
 			</div>
 			<?php if ( ! dynamic_sidebar("top_menu") ) : ?>
 			<?php endif; ?>
