@@ -92,7 +92,7 @@ a, a:link, a:visited {
 /* single header */
 .singleTitle {
 	font-size: 24px;
-	line-height: 0.9;
+	line-height: 0.8;
 	float: left;
     display: inline-block;
     font-weight: 700;
