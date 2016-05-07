@@ -12,7 +12,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="container">
+	<div id="container" class="preload">
 		<div id="header">
 			<a href="<?php echo home_url(); ?>" class="blogTitle">
 				<?php bloginfo('name'); ?>
