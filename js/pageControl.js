@@ -22,6 +22,6 @@ $(document).ready(function(){
 	});
 });
 $(window).load(function(){
-	// $('.categoryButton_bar_one').css("transition-duration", "0.3s")
-	// $('.categoryButton_bar_two').css("transition-duration", "0.3s")
+	 $('.categoryButton_bar_one').css("transition-duration", "0.3s")
+	 $('.categoryButton_bar_two').css("transition-duration", "0.3s")
 })
