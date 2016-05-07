@@ -11,7 +11,7 @@
 <link href='https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 
-<body <?php body_class(); ?> id="preload">
+<body <?php body_class(); ?>>
 	<div id="container">
 		<div id="header">
 			<a href="<?php echo home_url(); ?>" class="blogTitle">
