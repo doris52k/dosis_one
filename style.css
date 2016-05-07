@@ -40,11 +40,12 @@ a, a:link, a:visited {
 	display: none;
 }
 .top_menu ul li {
-	padding: 0 0 20px 0;
+	padding: 0 0 18px 0;
 	text-align: center;
 }
 .top_menu a {
-	font-size: 28px;
+	font-size: 24px;
+	font-weight: 700;
 }
 .top_menu {
 	margin-top: 36px;
