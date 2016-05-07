@@ -47,7 +47,7 @@ a, a:link, a:visited {
 	font-size: 22px;
 }
 .top_menu {
-	margin-top: 24px;
+	margin-top: 36px;
 	display: none;
 }
 	/* menu bar */
@@ -64,6 +64,7 @@ a, a:link, a:visited {
 		border-radius: 2px;
 		background-color: #000;
 		position: absolute;
+		transition-duration: 0.3s;
 	}
 	.categoryButton_bar_one {
 		top: 7px;
