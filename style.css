@@ -40,6 +40,7 @@ a, a:link, a:visited {
 	line-height: 0.75;
 	float: left;
     display: inline-block;
+    transition-duration: 0.3s;
 }
 .widgettitle {
 	display: none;
