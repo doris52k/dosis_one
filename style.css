@@ -90,7 +90,7 @@ a, a:link, a:visited {
 	}
 
 /* single header */
-.singleTitle {
+.singleTitle p {
 	font-size: 24px;
 	line-height: 0.8;
 	float: left;

@@ -17,9 +17,9 @@
 			<a href="#" onclick="history.back(); return false;" class="singleTitle">
 				<div class="backButton">
 					<div class="backButton_bar_one"></div>
-					<div class="backButton_bar_two">
+					<div class="backButton_bar_two"></div>
 				</div>
-				</div><?php the_title(); ?>
+				<p><?php the_title(); ?></p>
 			</a>
 			<div class="categoryButton" id="menubtn_id">
 				<div class="categoryButton_bar_one"></div>
