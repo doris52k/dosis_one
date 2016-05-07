@@ -69,7 +69,7 @@ a, a:link, a:visited {
 		border-radius: 2px;
 		background-color: #000;
 		position: absolute;
-		/*transition-duration: 0.3s;*/
+		transition-duration: 0.3s;
 	}
 	.categoryButton_bar_one {
 		top: 7px;
