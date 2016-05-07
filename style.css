@@ -22,6 +22,8 @@ a, a:link, a:visited {
 }
 #main {
 	width: 100%;
+	float: left;
+	margin-bottom: 60px;
 }
 
 /* header */
