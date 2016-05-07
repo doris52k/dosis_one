@@ -11,8 +11,8 @@
 <link href='https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 
-<body <?php body_class(); ?>>
-	<div id="container" class="preload">
+<body <?php body_class(); ?> id="preload">
+	<div id="container">
 		<div id="header">
 			<a href="#" onclick="history.back(); return false;" class="singleTitle">
 				<div class="backButton">

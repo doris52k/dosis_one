@@ -22,5 +22,5 @@ $(document).ready(function(){
 	});
 });
 $(window).load(function(){
-	$("#container").removeClass("preload");
+	//$("body").attr("id", "");
 });
