@@ -185,6 +185,11 @@ a, a:link, a:visited {
 		width: 960px;
 		margin: auto;
 	}
+	/* header */
+	.#header {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 	/* index */
 	.index_article {
 		width: 300px;
