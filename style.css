@@ -261,6 +261,26 @@ a, a:link, a:visited {
 		/*50% {transform: rotate(45deg);}*/
 		100% {transform: rotate(135deg);}
 	}
+	.singleTitle:hover .backButton_bar_one {
+		animation-name: bounce_back_one;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	@-webkit-keyframes bounce_back_one {
+		from {left: 0;}
+		to {left: 3px;}
+	}
+	.singleTitle:hover .backButton_bar_two {
+		animation-name: bounce_back_two;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	@-webkit-keyframes bounce_back_two {
+		from {left: 0;}
+		to {left: 3px;}
+	}
 }
 @media (min-width: 1600px) and (min-height: 670px) {
 	#header {
