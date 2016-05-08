@@ -187,9 +187,9 @@ a, a:link, a:visited {
 	}
 	/* index */
 	.index_article {
-		width: 31.33%;
+		width: 300px;
 		float: left;
-		margin: 0 1%;
+		margin: 0 10px;
 		margin-bottom: 40px;
 	}
 	.index_title {
