@@ -181,36 +181,31 @@ a, a:link, a:visited {
 	html {
 		height: 100%;
 	}
-	#container {
-		width: 990px;
-		margin: auto;
+	.index_article {
+		width: 31.33%;
+		float: left;
+		margin: 0 1%;
+		margin-bottom: 36px;
 	}
-	#single_content {
-		width: 960px;
-		margin: auto;
-	}
-	/* header */
+}
+@media (min-width: 1280px) and (min-height: 670px) {
 	#header {
-		padding-left: 15px;
-		padding-right: 15px;
-		width: 960px;
+		width: 1280px;
 		margin: auto;
+		margin-bottom: 48px;
 	}
 	#content {
-		width: 990px;
-	}
-	/* index */
-	#main {
-		margin-top: 40px;
+		width: 1320px;
+		margin: auto;
 	}
 	.index_article {
-		width: 300px;
-		float: left;
-		margin: 0 15px;
-		margin-bottom: 40px;
+		width: 400px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
-	.index_title {
-		margin-left: 0;
+	#footer {
+		width: 1280px;
+		margin: auto;
+		margin-top: 80px;
 	}
-	/* */
 }
