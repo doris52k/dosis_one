@@ -188,23 +188,23 @@ a, a:link, a:visited {
 		margin-bottom: 36px;
 	}
 }
-@media (min-width: 1280px) and (min-height: 670px) {
+@media (min-width: 1600px) and (min-height: 670px) {
 	#header {
-		width: 1280px;
+		width: 1600px;
 		margin: auto;
 		margin-bottom: 48px;
 	}
 	#content {
-		width: 1320px;
+		width: 1632px;
 		margin: auto;
 	}
 	.index_article {
-		width: 400px;
-		margin-left: 20px;
-		margin-right: 20px;
+		width: 512px;
+		margin-left: 16px;
+		margin-right: 16px;
 	}
 	#footer {
-		width: 1280px;
+		width: 1600px;
 		margin: auto;
 		margin-top: 80px;
 	}
