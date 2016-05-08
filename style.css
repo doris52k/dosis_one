@@ -186,7 +186,7 @@ a, a:link, a:visited {
 		margin: auto;
 	}
 	/* header */
-	.#header {
+	#header {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
