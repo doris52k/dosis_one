@@ -187,6 +187,80 @@ a, a:link, a:visited {
 		margin: 0 1%;
 		margin-bottom: 36px;
 	}
+	.categoryButton:hover .categoryButton_bar_two {
+		-ms-animation-name: bounce_two;
+		-ms-animation-duration: 0.5s;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: alternate;
+		-webkit-animation-name: bounce_two;
+		-webkit-animation-duration: 0.5s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: alternate;
+		animation-name: bounce_two;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	.categoryButton:hover .categoryButton_bar_one {
+		-ms-animation-name: bounce_one;
+		-ms-animation-duration: 0.5s;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: alternate;
+		-webkit-animation-name: bounce_one;
+		-webkit-animation-duration: 0.5s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: alternate;
+		animation-name: bounce_one;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	@-webkit-keyframes bounce_one {
+		from {top: 7px;}
+		to {top: 4px;}
+	}
+	@-webkit-keyframes bounce_two {
+		from {top: 15px;}
+		to {top: 18px;}
+	}
+	.categoryButton_close:hover .categoryButton_bar_one {
+		-ms-animation-name: turn_one;
+		-ms-animation-duration: 0.7s;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: alternate;
+		-webkit-animation-name: turn_one;
+		-webkit-animation-duration: 0.7s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: alternate;
+		animation-name: turn_one;
+		animation-duration: 0.7s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	.categoryButton_close:hover .categoryButton_bar_two {
+		-ms-animation-name: turn_two;
+		-ms-animation-duration: 0.7s;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: alternate;
+		-webkit-animation-name: turn_two;
+		-webkit-animation-duration: 0.7s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: alternate;
+		animation-name: turn_two;
+		animation-duration: 0.7s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	@-webkit-keyframes turn_one {
+		0% {transform: rotate(45deg);}
+		/*50% {transform: rotate(225deg);}*/
+		100% {transform: rotate(225deg);}
+	}
+	@-webkit-keyframes turn_two {
+		0% {transform: rotate(-45deg);}
+		/*50% {transform: rotate(45deg);}*/
+		100% {transform: rotate(135deg);}
+	}
 }
 @media (min-width: 1600px) and (min-height: 670px) {
 	#header {
