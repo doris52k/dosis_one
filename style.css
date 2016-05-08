@@ -182,22 +182,35 @@ a, a:link, a:visited {
 		height: 100%;
 	}
 	#container {
+		width: 990px;
+		margin: auto;
+	}
+	#single_content {
 		width: 960px;
 		margin: auto;
 	}
 	/* header */
 	#header {
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 960px;
+		margin: auto;
+	}
+	#content {
+		width: 990px;
 	}
 	/* index */
+	#main {
+		margin-top: 40px;
+	}
 	.index_article {
 		width: 300px;
 		float: left;
-		margin: 0 10px;
+		margin: 0 15px;
 		margin-bottom: 40px;
 	}
 	.index_title {
 		margin-left: 0;
 	}
+	/* */
 }
