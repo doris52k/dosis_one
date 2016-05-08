@@ -208,4 +208,9 @@ a, a:link, a:visited {
 		margin: auto;
 		margin-top: 80px;
 	}
+	/* single content */
+	#single_content {
+		width: 1600px;
+		margin: auto;
+	}
 }
