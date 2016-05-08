@@ -181,6 +181,10 @@ a, a:link, a:visited {
 	html {
 		height: 100%;
 	}
+	#container {
+		width: 960px;
+		margin: auto;
+	}
 	/* index */
 	.index_article {
 		width: 31.33%;
@@ -190,11 +194,5 @@ a, a:link, a:visited {
 	}
 	.index_title {
 		margin-left: 0;
-	}
-}
-@media (min-width: 1200px) and (min-height: 670px) {
-	#container {
-		width: 1200px;
-		margin: auto;
 	}
 }
