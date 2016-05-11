@@ -285,7 +285,7 @@ a, a:link, a:visited {
 	}
 	/* top size resize */
 	.blogTitle {
-		font-size: 44px;
+		font-size: 40px;
 	}
 	.categoryButton {
 		width: 36px;
@@ -324,7 +324,7 @@ a, a:link, a:visited {
 	.index_title {
 		margin-left: 0;
 		font-size: 30px;
-	    font-weight: 700;
+	    font-weight: 600;
 	}
 	.singleTitle p {
 		font-size: 40px;
