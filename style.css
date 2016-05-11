@@ -351,6 +351,7 @@ a, a:link, a:visited {
 		-webkit-transform: rotate(-45deg);
 		transform: rotate(-45deg);
 	}
+	/**/
 }
 @media (min-width: 1640px) and (min-height: 670px) {
 	#header {
