@@ -352,10 +352,15 @@ a, a:link, a:visited {
 		-webkit-transform: rotate(-45deg);
 		transform: rotate(-45deg);
 	}
+	.top_menu {
+		margin-top: 48px;
+	}
 	.top_menu a {
 		font-size: 36px;
 	}
-	/**/
+	.top_menu ul li {
+    	padding: 0 0 24px 0;
+	}
 }
 @media (min-width: 1640px) and (min-height: 670px) {
 	#header {
