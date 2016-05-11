@@ -1,0 +1,381 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, header, footer, span, a, p, article {
+	font-size: 18px;
+	text-decoration: none;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
+	word-break: break-all;
+}
+ul {
+	list-style-type: none;
+}
+a, a:link, a:visited {
+	list-style-type: none;
+	color: #000;
+}
+#main {
+	width: 100%;
+	float: left;
+	margin-bottom: 60px;
+}
+
+/* header */
+#header {
+	padding: 16px 12px;
+	margin-bottom: 48px;
+}
+.blogTitle {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 0.75;
+	float: left;
+    display: inline-block;
+}
+.widgettitle {
+	display: none;
+}
+.top_menu ul li {
+	padding: 0 0 20px 0;
+	text-align: center;
+}
+.top_menu a {
+	font-size: 24px;
+	font-weight: 700;
+}
+.top_menu {
+	margin-top: 40px;
+	display: none;
+}
+	/* menu bar */
+	.categoryButton {
+		position: relative;
+		float: right;
+		width: 26px;
+		height: 26px;
+		margin-top: -3px;
+	}
+	.categoryButton_bar_one, .categoryButton_bar_two {
+		width: 26px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #000;
+		position: absolute;
+		-ms-transition-duration: 0.3s;
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+	}
+	.categoryButton_bar_one {
+		top: 7px;
+	}
+	.categoryButton_bar_two {
+		top: 15px;
+	}
+	.categoryButton_close {
+		position: relative;
+		float: right;
+		width: 26px;
+		height: 26px;
+		margin-top: -3px;
+	}
+	.categoryButton_close .categoryButton_bar_one {
+		top: 11px;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.categoryButton_close .categoryButton_bar_two {
+		top: 11px;
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+/* single header */
+.singleTitle p {
+	font-size: 24px;
+	line-height: 0.8;
+	float: left;
+    display: inline-block;
+    font-weight: 700;
+}
+	/* back button */
+	.backButton {
+		position: relative;
+		float: left;
+		width: 26px;
+		height: 26px;
+		margin-top: -3px;
+	}
+	.backButton_bar_one, .backButton_bar_two {
+		width: 16px;
+		height: 4px;
+		border-radius: 2px;
+		background-color: #000;
+		position: absolute;
+	}
+	.backButton_bar_one {
+		top: 16px;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.backButton_bar_two {
+		top: 6px;
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+/* header end */
+
+/* contents */
+.index_article_thumb {
+	width: 100%;
+	height: 0;
+	background-color: #eee;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 50%;
+}
+.index_article {
+	margin-bottom: 48px;
+}
+.index_title {
+    margin: 12px;
+    margin-top: 8px;
+    display: block;
+    font-size: 26px;
+}
+.single_title {
+	margin-left: 12px;
+}
+.single_article img{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.single_article p, .single_article a, .single_article h1, .single_article h2, .single_article h3, .single_article h4, .single_article h5, .single_article h6 {
+	margin: 12px;
+	line-height: 1.4;
+}
+/* content end */
+
+/* footer */
+#footer {
+	padding-left: 12px;
+	margin-top: 80px;
+	padding-bottom: 20px;
+}
+#footer span {
+	font-size: 16px;
+	color: #999;
+	line-height: 2;
+}
+@media (min-width: 960px) and (min-height: 670px) {
+	html {
+		height: 100%;
+	}
+	.index_article {
+		width: 48%;
+		float: left;
+		margin: 0 1%;
+		margin-bottom: 60px;
+	}
+	.categoryButton:hover .categoryButton_bar_two {
+		-ms-animation-name: bounce_two;
+		-ms-animation-duration: 0.5s;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: alternate;
+		-webkit-animation-name: bounce_two;
+		-webkit-animation-duration: 0.5s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: alternate;
+		animation-name: bounce_two;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	.categoryButton:hover .categoryButton_bar_one {
+		-ms-animation-name: bounce_one;
+		-ms-animation-duration: 0.5s;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: alternate;
+		-webkit-animation-name: bounce_one;
+		-webkit-animation-duration: 0.5s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: alternate;
+		animation-name: bounce_one;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	@-webkit-keyframes bounce_one {
+		0% {top: 10px;}
+		50% {top: 7px;}
+		100% {top: 10px;}
+	}
+	@-webkit-keyframes bounce_two {
+		0% {top: 20px;}
+		50% {top: 23px;}
+		100% {top: 20px;}
+	}
+	.categoryButton_close:hover .categoryButton_bar_one {
+		-ms-animation-name: turn_one;
+		-ms-animation-duration: 0.7s;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: alternate;
+		-webkit-animation-name: turn_one;
+		-webkit-animation-duration: 0.7s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: alternate;
+		animation-name: turn_one;
+		animation-duration: 0.7s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	.categoryButton_close:hover .categoryButton_bar_two {
+		-ms-animation-name: turn_two;
+		-ms-animation-duration: 0.7s;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: alternate;
+		-webkit-animation-name: turn_two;
+		-webkit-animation-duration: 0.7s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: alternate;
+		animation-name: turn_two;
+		animation-duration: 0.7s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	@-webkit-keyframes turn_one {
+		0% {transform: rotate(45deg);}
+		/*50% {transform: rotate(225deg);}*/
+		100% {transform: rotate(225deg);}
+	}
+	@-webkit-keyframes turn_two {
+		0% {transform: rotate(-45deg);}
+		/*50% {transform: rotate(45deg);}*/
+		100% {transform: rotate(135deg);}
+	}
+	.singleTitle:hover .backButton_bar_one {
+		animation-name: bounce_back_one;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	@-webkit-keyframes bounce_back_one {
+		from {left: 0;}
+		to {left: 3px;}
+	}
+	.singleTitle:hover .backButton_bar_two {
+		animation-name: bounce_back_two;
+		animation-duration: 0.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: alternate;
+	}
+	@-webkit-keyframes bounce_back_two {
+		from {left: 0;}
+		to {left: 3px;}
+	}
+	/* top size resize */
+	.blogTitle {
+		font-size: 40px;
+	}
+	.categoryButton {
+		width: 36px;
+		height: 36px;
+		margin-top: 2px;
+	}
+	.categoryButton_bar_one, .categoryButton_bar_two {
+		width: 36px;
+		height: 6px;
+		border-radius: 3px;
+	}
+	.categoryButton_bar_one {
+		top: 10px;
+	}
+	.categoryButton_bar_two {
+		top: 20px;
+	}
+	.categoryButton_close {
+		width: 36px;
+		height: 36px;
+		margin-top: 2px;
+	}
+	.categoryButton_close .categoryButton_bar_one {
+		top: 15px;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.categoryButton_close .categoryButton_bar_two {
+		top: 15px;
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+	/* list title */
+	.index_title {
+		margin-left: 0;
+		font-size: 30px;
+	    font-weight: 600;
+	}
+	.singleTitle p {
+		font-size: 40px;
+	}
+	.backButton {
+		width: 36px;
+		height: 36px;
+		margin-top: 2px;
+	}
+	.backButton_bar_one, .backButton_bar_two {
+		width: 24px;
+		height: 6px;
+		border-radius: 3px;
+	}
+	.backButton_bar_one {
+		top: 20px;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.backButton_bar_two {
+		top: 6px;
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+	/**/
+}
+@media (min-width: 1640px) and (min-height: 670px) {
+	#header {
+		width: 1600px;
+		margin: auto;
+		margin-bottom: 80px;
+	}
+	#content {
+		width: 1632px;
+		margin: auto;
+	}
+	.index_article {
+		width: 512px;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	#footer {
+		width: 1600px;
+		margin: auto;
+		margin-top: 80px;
+	}
+	/* single content */
+	#single_content {
+		width: 1600px;
+		margin: auto;
+	}
+}
