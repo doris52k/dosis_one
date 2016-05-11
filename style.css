@@ -328,6 +328,7 @@ a, a:link, a:visited {
 		margin-left: 0;
 		font-size: 28px;
 	    font-weight: 600;
+	    margin-top: 12px;
 	}
 	.singleTitle p {
 		font-size: 36px;
