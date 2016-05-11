@@ -352,6 +352,9 @@ a, a:link, a:visited {
 		-webkit-transform: rotate(-45deg);
 		transform: rotate(-45deg);
 	}
+	.top_menu a {
+		font-size: 36px;
+	}
 	/**/
 }
 @media (min-width: 1640px) and (min-height: 670px) {
