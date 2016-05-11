@@ -150,7 +150,7 @@ a, a:link, a:visited {
     margin: 12px;
     margin-top: 8px;
     display: block;
-    font-size: 22px;
+    font-size: 26px;
 }
 .single_title {
 	margin-left: 12px;
@@ -216,12 +216,14 @@ a, a:link, a:visited {
 		animation-timing-function: alternate;
 	}
 	@-webkit-keyframes bounce_one {
-		from {top: 7px;}
-		to {top: 4px;}
+		0% {top: 10px;}
+		50% {top: 7px;}
+		100% {top: 10px;}
 	}
 	@-webkit-keyframes bounce_two {
-		from {top: 15px;}
-		to {top: 18px;}
+		0% {top: 20px;}
+		50% {top: 23px;}
+		100% {top: 20px;}
 	}
 	.categoryButton_close:hover .categoryButton_bar_one {
 		-ms-animation-name: turn_one;
@@ -281,8 +283,76 @@ a, a:link, a:visited {
 		from {left: 0;}
 		to {left: 3px;}
 	}
+	/* top size resize */
+	.blogTitle {
+		font-size: 44px;
+	}
+	.categoryButton {
+		width: 36px;
+		height: 36px;
+		margin-top: 2px;
+	}
+	.categoryButton_bar_one, .categoryButton_bar_two {
+		width: 36px;
+		height: 6px;
+		border-radius: 3px;
+	}
+	.categoryButton_bar_one {
+		top: 10px;
+	}
+	.categoryButton_bar_two {
+		top: 20px;
+	}
+	.categoryButton_close {
+		width: 36px;
+		height: 36px;
+		margin-top: 2px;
+	}
+	.categoryButton_close .categoryButton_bar_one {
+		top: 15px;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.categoryButton_close .categoryButton_bar_two {
+		top: 15px;
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+	/* list title */
+	.index_title {
+		margin-left: 0;
+		font-size: 30px;
+	    font-weight: 700;
+	}
+	.singleTitle p {
+		font-size: 40px;
+	}
+	.backButton {
+		width: 36px;
+		height: 36px;
+		margin-top: 2px;
+	}
+	.backButton_bar_one, .backButton_bar_two {
+		width: 24px;
+		height: 6px;
+		border-radius: 3px;
+	}
+	.backButton_bar_one {
+		top: 20px;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.backButton_bar_two {
+		top: 6px;
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
 }
-@media (min-width: 1600px) and (min-height: 670px) {
+@media (min-width: 1640px) and (min-height: 670px) {
 	#header {
 		width: 1600px;
 		margin: auto;
