@@ -328,6 +328,7 @@ a, a:link, a:visited {
 	}
 	.singleTitle p {
 		font-size: 36px;
+		margin-top: 3px;
 	}
 	.backButton {
 		width: 36px;
