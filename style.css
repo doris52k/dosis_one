@@ -367,6 +367,7 @@ a, a:link, a:visited {
 		width: 1600px;
 		margin: auto;
 		margin-bottom: 80px;
+		padding-bottom: 0;
 	}
 	#content {
 		width: 1632px;
