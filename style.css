@@ -261,6 +261,7 @@ a, a:link, a:visited {
 		}
 		.top_menu {
     		margin-bottom: 60px;
+    		border-bottom: 1px solid #ddd;
 		}
 		.top_menu a {
 			font-size: 28px;
@@ -268,6 +269,9 @@ a, a:link, a:visited {
 		}
 		.top_menu ul li {
 			padding-bottom: 24px;
+		}
+		.top_menu ul li:last-child {
+			padding-bottom: 48px;
 		}
 		.top_column_close {
 			width: 920px;
