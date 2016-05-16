@@ -34,6 +34,9 @@ a, a:link, a:visited {
 	width: 100%;
 	margin-bottom: 52px;
 }
+.header_close {
+	background-color: #f9f9f9;
+}
 .top_column {
 	padding: 16px 12px;
 	margin-bottom: 40px;
@@ -55,6 +58,9 @@ a, a:link, a:visited {
 .top_menu ul li {
 	padding: 0 0 20px 0;
 	text-align: center;
+}
+.top_menu ul li:last-child {
+	padding-bottom: 48px;
 }
 .top_menu a {
 	font-size: 24px;
@@ -261,7 +267,6 @@ a, a:link, a:visited {
 		}
 		.top_menu {
     		margin-bottom: 60px;
-    		border-bottom: 1px solid #ddd;
 		}
 		.top_menu a {
 			font-size: 28px;
@@ -271,7 +276,7 @@ a, a:link, a:visited {
 			padding-bottom: 24px;
 		}
 		.top_menu ul li:last-child {
-			padding-bottom: 48px;
+			padding-bottom: 68px;
 		}
 		.top_column_close {
 			width: 920px;
