@@ -20,9 +20,6 @@ a, a:link, a:visited {
 	list-style-type: none;
 	color: #000;
 }
-a:hover {
-	text-decoration: underline;
-}
 #main {
 	width: 100%;
 	float: left;
@@ -280,6 +277,9 @@ a:hover {
 		}
 		.top_menu ul li:last-child {
 			padding-bottom: 68px;
+		}
+		.top_menu ul li:hover {
+			text-decoration: underline;
 		}
 		.top_column_close {
 			width: 920px;
