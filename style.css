@@ -500,9 +500,9 @@ a, a:link, a:visited {
 		transition-duration: 0.3s;
 	}
 	.index_article:hover div{
-		-ms-filter: brightness(0.85);
-		-webkit-filter: brightness(0.85);
-		filter: brightness(0.85);
+		-ms-filter: brightness(0.90);
+		-webkit-filter: brightness(0.90);
+		filter: brightness(0.90);
 	}
 	/***** content end *****/
 
