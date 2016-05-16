@@ -91,18 +91,18 @@ a, a:link, a:visited {
 	.categoryButton_close {
 		position: relative;
 		float: right;
-		width: 26px;
-		height: 26px;
+		width: 28px;
+		height: 28px;
 		margin-top: -3px;
 	}
 	.categoryButton_close .categoryButton_bar_one {
-		top: 11px;
+		top: 12px;
 		-ms-transform: rotate(45deg);
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
 	.categoryButton_close .categoryButton_bar_two {
-		top: 11px;
+		top: 12px;
 		-ms-transform: rotate(-45deg);
 		-webkit-transform: rotate(-45deg);
 		transform: rotate(-45deg);
