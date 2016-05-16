@@ -44,6 +44,9 @@ a, a:link, a:visited {
 .top_column_close {
 	padding: 16px 12px;
 	margin-bottom: 40px;
+	-ms-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 }
 .blogTitle {
 	font-size: 32px;
@@ -60,7 +63,7 @@ a, a:link, a:visited {
 	text-align: center;
 }
 .top_menu ul li:last-child {
-	padding-bottom: 48px;
+	padding-bottom: 64px;
 }
 .top_menu a {
 	font-size: 24px;
