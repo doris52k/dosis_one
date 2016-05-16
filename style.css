@@ -112,7 +112,7 @@ a, a:link, a:visited {
 
 /*** single header ***/
 .singleTitle p {
-	font-size: 26px;
+	font-size: 24px;
 	line-height: 0.8;
 	float: left;
     display: inline-block;
@@ -127,14 +127,14 @@ a, a:link, a:visited {
 		margin-top: -3px;
 	}
 	.backButton_bar_one, .backButton_bar_two {
-		width: 19px;
+		width: 18px;
 		height: 4px;
 		border-radius: 2px;
 		background-color: #000;
 		position: absolute;
 	}
 	.backButton_bar_one {
-		top: 6px;
+		top: 7px;
 		-ms-transform: rotate(-45deg);
 		-webkit-transform: rotate(-45deg);
 		transform: rotate(-45deg);
