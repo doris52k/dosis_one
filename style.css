@@ -18,7 +18,7 @@ ul {
 }
 a, a:link, a:visited {
 	list-style-type: none;
-	color: #00349b;
+	color: #000;
 }
 #main {
 	width: 100%;
@@ -82,7 +82,7 @@ a, a:link, a:visited {
 		width: 28px;
 		height: 4px;
 		border-radius: 2px;
-		background-color: #00349b;
+		background-color: #000;
 		position: absolute;
 		-ms-transition-duration: 0.3s;
 		-webkit-transition-duration: 0.3s;
@@ -136,7 +136,7 @@ a, a:link, a:visited {
 		width: 18px;
 		height: 4px;
 		border-radius: 2px;
-		background-color: #00349b;
+		background-color: #000;
 		position: absolute;
 	}
 	.backButton_bar_one {
@@ -209,7 +209,7 @@ a, a:link, a:visited {
 }
 #footer span {
 	font-size: 15px;
-	color: #00349b;
+	color: #000;
 	line-height: 2;
 	text-align: right;
 	float: right;
@@ -244,6 +244,7 @@ a, a:link, a:visited {
 			width: 36px;
 			height: 6px;
 			border-radius: 3px;
+			background-color: #000;
 		}
 		.categoryButton_bar_one {
 			top: 7px;
@@ -296,6 +297,7 @@ a, a:link, a:visited {
 			width: 22px;
 			height: 6px;
 			border-radius: 3px;
+			background-color: #000;
 			position: absolute;
 		}
 		.backButton_bar_one {
