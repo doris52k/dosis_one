@@ -68,12 +68,12 @@ a, a:link, a:visited {
 	.categoryButton {
 		position: relative;
 		float: right;
-		width: 26px;
-		height: 26px;
+		width: 28px;
+		height: 28px;
 		margin-top: -3px;
 	}
 	.categoryButton_bar_one, .categoryButton_bar_two {
-		width: 26px;
+		width: 28px;
 		height: 4px;
 		border-radius: 2px;
 		background-color: #000;
@@ -83,10 +83,10 @@ a, a:link, a:visited {
 		transition-duration: 0.3s;
 	}
 	.categoryButton_bar_one {
-		top: 7px;
+		top: 8px;
 	}
 	.categoryButton_bar_two {
-		top: 15px;
+		top: 16px;
 	}
 	.categoryButton_close {
 		position: relative;
