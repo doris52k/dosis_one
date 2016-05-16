@@ -33,6 +33,7 @@ a, a:link, a:visited {
 /*** index header ***/
 #header {
 	width: 100%;
+	margin-bottom: 52px;
 }
 .top_column {
 	padding: 16px 12px;
