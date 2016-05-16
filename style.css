@@ -18,7 +18,7 @@ ul {
 }
 a, a:link, a:visited {
 	list-style-type: none;
-	color: #000;
+	color: #00349b;
 }
 #main {
 	width: 100%;
@@ -35,7 +35,7 @@ a, a:link, a:visited {
 	margin-bottom: 52px;
 }
 .header_close {
-	background-color: #f9f9f9;
+	background-color: #ffca20;
 }
 .top_column {
 	padding: 16px 12px;
