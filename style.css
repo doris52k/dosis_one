@@ -494,7 +494,7 @@ a, a:link, a:visited {
 		-webkit-transition-duration: 0.3s;
 		transition-duration: 0.3s;
 	}
-	.index_article:hover {
+	.index_article:hover article{
 		-webkit-filter: brightness(0.25);
 	}
 	/***** content end *****/
