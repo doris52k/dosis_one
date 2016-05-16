@@ -14,12 +14,14 @@
 <body <?php body_class(); ?>>
 	<div id="container">
 		<div id="header">
-			<a href="<?php echo home_url(); ?>" class="blogTitle">
-				<?php bloginfo('name'); ?>
-			</a>
-			<div class="categoryButton" id="menubtn_id">
-				<div class="categoryButton_bar_one"></div>
-				<div class="categoryButton_bar_two"></div>
+			<div id="head_column" class="top_column">
+				<a href="<?php echo home_url(); ?>" class="blogTitle">
+					<?php bloginfo('name'); ?>
+				</a>
+				<div class="categoryButton" id="menubtn_id">
+					<div class="categoryButton_bar_one"></div>
+					<div class="categoryButton_bar_two"></div>
+				</div>
 			</div>
 			<?php if ( ! dynamic_sidebar("top_menu") ) : ?>
 			<?php endif; ?>

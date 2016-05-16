@@ -14,16 +14,18 @@
 <body <?php body_class(); ?>>
 	<div id="container">
 		<div id="header">
-			<a href="#" onclick="history.back(); return false;" class="singleTitle">
-				<div class="backButton">
-					<div class="backButton_bar_one"></div>
-					<div class="backButton_bar_two"></div>
+			<div id="head_column" class="top_column">
+				<a href="#" onclick="history.back(); return false;" class="singleTitle">
+					<div class="backButton">
+						<div class="backButton_bar_one"></div>
+						<div class="backButton_bar_two"></div>
+					</div>
+					<p><?php the_title(); ?></p>
+				</a>
+				<div class="categoryButton" id="menubtn_id">
+					<div class="categoryButton_bar_one"></div>
+					<div class="categoryButton_bar_two"></div>
 				</div>
-				<p><?php the_title(); ?></p>
-			</a>
-			<div class="categoryButton" id="menubtn_id">
-				<div class="categoryButton_bar_one"></div>
-				<div class="categoryButton_bar_two"></div>
 			</div>
 			<?php if ( ! dynamic_sidebar("top_menu") ) : ?>
 			<?php endif; ?>

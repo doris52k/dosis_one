@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div id="main">
-	<div id="content" >
+	<div id="index_content" >
 		<?php if ( have_posts() ) : while (have_posts()) : the_post(); ?>
 			<article class="index_article">
 				<a href="<?php the_permalink(); ?>">
@@ -10,10 +10,14 @@
 				<a href="<?php the_permalink(); ?>" class="index_title">
 					<?php the_title(); ?>
 				</a>
+				<span class="index_info">
+					<?php the_category('&nbsp;&nbsp;&nbsp;&nbsp;∙&nbsp;&nbsp;&nbsp;&nbsp;'); ?>
+				</span>
 			</article>
 		<?php endwhile; else: ?>
 			<h2>What?!</h2>
 		<?php endif; ?>
+		<div class="more_article"></div>
 	</div>
 </div>
 <?php get_footer(); ?>
