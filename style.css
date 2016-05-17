@@ -25,6 +25,11 @@ a, a:link, a:visited {
 	float: left;
 	margin-bottom: 60px;
 }
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  transition: none !important;
+}
 
 
 /***** header *****/
@@ -359,23 +364,15 @@ a, a:link, a:visited {
 	/*** footer end ***/
 
 		/* top menu hover */
-		.categoryButton:hover .categoryButton_bar_one, .categoryButton:hover .categoryButton_bar_two {
-			-ms-animation-duration: 0.5s;
-			-webkit-animation-duration: 0.5s;
-			animation-duration: 0.5s;
-			-ms-animation-iteration-count: infinite;
-			-webkit-animation-iteration-count: infinite;
-			animation-iteration-count: infinite;
-		}
 		.categoryButton:hover .categoryButton_bar_one {
-			-ms-animation-name: bounce_one;
-			-webkit-animation-name: bounce_one;
-			animation-name: bounce_one;
+			-ms-animation: bounce_one 0.5s infinite;
+			-webkit-animation: bounce_one 0.5s infinite;
+			animation: bounce_one 0.5s infinite;
 		}
 		.categoryButton:hover .categoryButton_bar_two {
-			-webkit-animation-name: bounce_two;
-			-moz-animation-name: bounce_two;
-			animation-name: bounce_two;
+			-webkit-animation: bounce_two 0.5s infinite;
+			-moz-animation: bounce_two 0.5s infinite;
+			animation: bounce_two 0.5s infinite;
 		}
 		@-webkit-keyframes bounce_one {
 			0% {top: 7px;}
@@ -387,23 +384,15 @@ a, a:link, a:visited {
 			50% {top: 19px;}
 			100% {top: 17px;}
 		}
-		.categoryButton_close:hover .categoryButton_bar_one, .categoryButton_close:hover .categoryButton_bar_two {
-			-webkit-animation-duration: 0.75s;
-			-ms-animation-duration: 0.75s;
-			animation-duration: 0.75s;
-			-ms-animation-iteration-count: infinite;
-			-webkit-animation-iteration-count: infinite;
-			animation-iteration-count: infinite;
-		}
 		.categoryButton_close:hover .categoryButton_bar_one {
-			-webkit-animation-name: turn_one;
-			-moz-animation-name: turn_one;
-			animation-name: turn_one;
+			-webkit-animation: turn_one 0.75s infinite;
+			-moz-animation: turn_one 0.75s infinite;
+			animation: turn_one 0.75s infinite;
 		}
 		.categoryButton_close:hover .categoryButton_bar_two {
-			-webkit-animation-name: turn_two;
-			-moz-animation-name: turn_two;
-			animation-name: turn_two;
+			-webkit-animation: turn_two 0.75s infinite;
+			-moz-animation: turn_two 0.75s infinite;
+			animation: turn_two 0.75s infinite;
 		}
 		@-webkit-keyframes turn_one {
 			0% {transform: rotate(-45deg);}
@@ -417,27 +406,19 @@ a, a:link, a:visited {
 
 
 		/* single back button */
-		.singleTitle:hover .backButton_bar_one, .singleTitle:hover .backButton_bar_two {
-			-webkit-animation-duration: 0.5s;
-			-ms-animation-duration: 0.5s;
-			animation-duration: 0.5s;
-			-ms-animation-iteration-count: infinite;
-			-webkit-animation-iteration-count: infinite;
-			animation-iteration-count: infinite;
-		}
 		.singleTitle:hover .backButton_bar_one {
-			-webkit-animation-name: bounce_back_one;
-			-moz-animation-name: bounce_back_one;
-			animation-name: bounce_back_one;
+			-webkit-animation: bounce_back_one 0.5s infinite;
+			-moz-animation: bounce_back_one 0.5s infinite;
+			animation: bounce_back_one 0.5s infinite;
 		}
 		@-webkit-keyframes bounce_back_one {
 			from {left: 0;}
 			to {left: 3px;}
 		}
 		.singleTitle:hover .backButton_bar_two {
-			-webkit-animation-name: bounce_back_two;
-			-moz-animation-name: bounce_back_two;
-			animation-name: bounce_back_two;
+			-webkit-animation: bounce_back_two 0.5s infinite;
+			-moz-animation: bounce_back_two 0.5s infinite;
+			animation: bounce_back_two 0.5s infinite;
 		}
 		@-webkit-keyframes bounce_back_two {
 			from {left: 0;}
@@ -481,9 +462,9 @@ a, a:link, a:visited {
 		margin-bottom: 96px;
 	}
 	.index_article_thumb {
-		-webkit-transition: background-size 0.7s ;
-		-moz-transition: background-size 0.7s ;
-		transition: background-size 0.7s ;
+		-webkit-transition: background-size 0.35s ease-in-out;
+		-moz-transition: background-size 0.35s ease-in-out;
+		transition: background-size 0.35s ease-in-out;
 	}
 	.index_article_thumb:hover {
 		background-size: 110%;

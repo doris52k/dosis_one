@@ -21,3 +21,6 @@ $(document).ready(function(){
 		topMenuSwap();
 	});
 });
+$(window).load(function() {
+	$("#container").removeClass("preload");
+});
