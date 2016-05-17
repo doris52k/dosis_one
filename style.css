@@ -84,9 +84,9 @@ a, a:link, a:visited {
 		border-radius: 2px;
 		background-color: #000;
 		position: absolute;
-		-ms-transition-duration: 0.3s;
-		-webkit-transition-duration: 0.3s;
-		transition-duration: 0.3s;
+		-webkit-transition: top 0.3s;
+		-moz-transition: top 0.3s;
+		transition: top 0.3s;
 	}
 	.categoryButton_bar_one {
 		top: 8px;
@@ -103,14 +103,14 @@ a, a:link, a:visited {
 	}
 	.categoryButton_close .categoryButton_bar_one {
 		top: 12px;
-		-ms-transform: rotate(45deg);
 		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
 	.categoryButton_close .categoryButton_bar_two {
 		top: 12px;
-		-ms-transform: rotate(-45deg);
 		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
 		transform: rotate(-45deg);
 	}
 /*** index header end ***/
@@ -141,14 +141,14 @@ a, a:link, a:visited {
 	}
 	.backButton_bar_one {
 		top: 7px;
-		-ms-transform: rotate(-45deg);
 		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
 		transform: rotate(-45deg);
 	}
 	.backButton_bar_two {
 		top: 17px;
-		-ms-transform: rotate(45deg);
 		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
 	/* back button end */
@@ -163,11 +163,11 @@ a, a:link, a:visited {
 .index_article_thumb {
 	width: 100%;
 	height: 0;
+	padding-bottom: 50%;
 	background-color: #eee;
 	background-size: cover;
-	background-repeat: no-repeat;
-	padding-bottom: 50%;
 	background-position: center;
+	background-size: 100%;
 }
 .index_article {
 	margin-bottom: 48px;
@@ -219,7 +219,6 @@ a, a:link, a:visited {
 }
 /***** footer end *****/
 
-/***** width 960px *****/
 @media (min-width: 980px) and (min-height: 670px) {
 	html {
 		height: 100%;
@@ -307,14 +306,14 @@ a, a:link, a:visited {
 		}
 		.backButton_bar_one {
 			top: 6px;
-			-ms-transform: rotate(-45deg);
 			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
 			transform: rotate(-45deg);
 		}
 		.backButton_bar_two {
 			top: 18px;
-			-ms-transform: rotate(45deg);
 			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
 			transform: rotate(45deg);
 		}
 		.singleTitle p {
@@ -360,33 +359,23 @@ a, a:link, a:visited {
 	/*** footer end ***/
 
 		/* top menu hover */
+		.categoryButton:hover .categoryButton_bar_one, .categoryButton:hover .categoryButton_bar_two {
+			-ms-animation-duration: 0.5s;
+			-webkit-animation-duration: 0.5s;
+			animation-duration: 0.5s;
+			-ms-animation-iteration-count: infinite;
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+		}
 		.categoryButton:hover .categoryButton_bar_one {
 			-ms-animation-name: bounce_one;
-			-ms-animation-duration: 0.5s;
-			-ms-animation-iteration-count: infinite;
-			-ms-animation-timing-function: alternate;
 			-webkit-animation-name: bounce_one;
-			-webkit-animation-duration: 0.5s;
-			-webkit-animation-iteration-count: infinite;
-			-webkit-animation-timing-function: alternate;
 			animation-name: bounce_one;
-			animation-duration: 0.5s;
-			animation-iteration-count: infinite;
-			animation-timing-function: alternate;
 		}
 		.categoryButton:hover .categoryButton_bar_two {
-			-ms-animation-name: bounce_two;
-			-ms-animation-duration: 0.5s;
-			-ms-animation-iteration-count: infinite;
-			-ms-animation-timing-function: alternate;
 			-webkit-animation-name: bounce_two;
-			-webkit-animation-duration: 0.5s;
-			-webkit-animation-iteration-count: infinite;
-			-webkit-animation-timing-function: alternate;
+			-moz-animation-name: bounce_two;
 			animation-name: bounce_two;
-			animation-duration: 0.5s;
-			animation-iteration-count: infinite;
-			animation-timing-function: alternate;
 		}
 		@-webkit-keyframes bounce_one {
 			0% {top: 7px;}
@@ -398,33 +387,23 @@ a, a:link, a:visited {
 			50% {top: 19px;}
 			100% {top: 17px;}
 		}
-		.categoryButton_close:hover .categoryButton_bar_one {
-			-ms-animation-name: turn_one;
-			-ms-animation-duration: 0.7s;
+		.categoryButton_close:hover .categoryButton_bar_one, .categoryButton_close:hover .categoryButton_bar_two {
+			-webkit-animation-duration: 0.75s;
+			-ms-animation-duration: 0.75s;
+			animation-duration: 0.75s;
 			-ms-animation-iteration-count: infinite;
-			-ms-animation-timing-function: alternate;
-			-webkit-animation-name: turn_one;
-			-webkit-animation-duration: 0.7s;
 			-webkit-animation-iteration-count: infinite;
-			-webkit-animation-timing-function: alternate;
-			animation-name: turn_one;
-			animation-duration: 0.7s;
 			animation-iteration-count: infinite;
-			animation-timing-function: alternate;
+		}
+		.categoryButton_close:hover .categoryButton_bar_one {
+			-webkit-animation-name: turn_one;
+			-moz-animation-name: turn_one;
+			animation-name: turn_one;
 		}
 		.categoryButton_close:hover .categoryButton_bar_two {
-			-ms-animation-name: turn_two;
-			-ms-animation-duration: 0.7s;
-			-ms-animation-iteration-count: infinite;
-			-ms-animation-timing-function: alternate;
 			-webkit-animation-name: turn_two;
-			-webkit-animation-duration: 0.7s;
-			-webkit-animation-iteration-count: infinite;
-			-webkit-animation-timing-function: alternate;
+			-moz-animation-name: turn_two;
 			animation-name: turn_two;
-			animation-duration: 0.7s;
-			animation-iteration-count: infinite;
-			animation-timing-function: alternate;
 		}
 		@-webkit-keyframes turn_one {
 			0% {transform: rotate(-45deg);}
@@ -438,21 +417,27 @@ a, a:link, a:visited {
 
 
 		/* single back button */
-		.singleTitle:hover .backButton_bar_one {
-			animation-name: bounce_back_one;
+		.singleTitle:hover .backButton_bar_one, .singleTitle:hover .backButton_bar_two {
+			-webkit-animation-duration: 0.5s;
+			-ms-animation-duration: 0.5s;
 			animation-duration: 0.5s;
+			-ms-animation-iteration-count: infinite;
+			-webkit-animation-iteration-count: infinite;
 			animation-iteration-count: infinite;
-			animation-timing-function: alternate;
+		}
+		.singleTitle:hover .backButton_bar_one {
+			-webkit-animation-name: bounce_back_one;
+			-moz-animation-name: bounce_back_one;
+			animation-name: bounce_back_one;
 		}
 		@-webkit-keyframes bounce_back_one {
 			from {left: 0;}
 			to {left: 3px;}
 		}
 		.singleTitle:hover .backButton_bar_two {
+			-webkit-animation-name: bounce_back_two;
+			-moz-animation-name: bounce_back_two;
 			animation-name: bounce_back_two;
-			animation-duration: 0.5s;
-			animation-iteration-count: infinite;
-			animation-timing-function: alternate;
 		}
 		@-webkit-keyframes bounce_back_two {
 			from {left: 0;}
@@ -471,10 +456,9 @@ a, a:link, a:visited {
 	}
 	/*** single content article end ***/
 }
-/***** width 960px end *****/
 
-/***** width 1040px *****/
 @media (min-width: 1040px) and (min-height: 670px) {
+
 	/***** header *****/
 	.top_column {
 		width: 960px;
@@ -497,11 +481,9 @@ a, a:link, a:visited {
 		margin-bottom: 96px;
 	}
 	.index_article_thumb {
-		transition:all 0.7s ;
-		-webkit-transition:all 0.7s ;
-		-o-transition:all 0.7s ;
-		-moz-transition:all 0.7s ;
-		background-size: 100%;
+		-webkit-transition: background-size 0.7s ;
+		-moz-transition: background-size 0.7s ;
+		transition: background-size 0.7s ;
 	}
 	.index_article_thumb:hover {
 		background-size: 110%;
@@ -521,11 +503,11 @@ a, a:link, a:visited {
 		width: 960px;
 	}
 	/*** single content article end ***/
-}
-/***** width 1040px end ****/
 
-/***** width 1600px *****/
+}
+
 @media (min-width: 1560px) and (min-height: 670px) {
+
 	/***** header *****/
 	.top_column {
 		width: 1480px;
@@ -555,5 +537,5 @@ a, a:link, a:visited {
 		width: 1480px;
 	}
 	/*** single content article end ***/
+
 }
-/***** width 1600px end ****
