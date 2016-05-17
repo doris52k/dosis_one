@@ -167,6 +167,7 @@ a, a:link, a:visited {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-bottom: 50%;
+	background-position: center;
 }
 .index_article {
 	margin-bottom: 48px;
@@ -288,6 +289,7 @@ a, a:link, a:visited {
 			padding: 20px 0;
 		}
 		/* menu bar end */
+
 		/* back button */
 		.backButton {
 			position: relative;
@@ -494,15 +496,15 @@ a, a:link, a:visited {
 		margin-right: 40px;
 		margin-bottom: 96px;
 	}
-	.index_article div {
-		-ms-transition-duration: 0.3s;
-		-webkit-transition-duration: 0.3s;
-		transition-duration: 0.3s;
+	.index_article_thumb {
+		transition:all 0.7s ;
+		-webkit-transition:all 0.7s ;
+		-o-transition:all 0.7s ;
+		-moz-transition:all 0.7s ;
+		background-size: 100%;
 	}
-	.index_article:hover div{
-		-ms-filter: brightness(0.90);
-		-webkit-filter: brightness(0.90);
-		filter: brightness(0.90);
+	.index_article_thumb:hover {
+		background-size: 110%;
 	}
 	/***** content end *****/
 
