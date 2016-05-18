@@ -89,9 +89,9 @@ a, a:link, a:visited {
 		border-radius: 2px;
 		background-color: #000;
 		position: absolute;
-		-webkit-transition: top 0.3s;
-		-moz-transition: top 0.3s;
-		transition: top 0.3s;
+		-webkit-transition: top 0.3s, transform 0.3s;
+		-moz-transition: top 0.3s, transform 0.3s;
+		transition: top 0.3s, transform 0.3s;
 	}
 	.categoryButton_bar_one {
 		top: 8px;
@@ -108,15 +108,15 @@ a, a:link, a:visited {
 	}
 	.categoryButton_close .categoryButton_bar_one {
 		top: 12px;
-		-webkit-transform: rotate(-45deg);
-		-moz-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-	}
-	.categoryButton_close .categoryButton_bar_two {
-		top: 12px;
 		-webkit-transform: rotate(45deg);
 		-moz-transform: rotate(45deg);
 		transform: rotate(45deg);
+	}
+	.categoryButton_close .categoryButton_bar_two {
+		top: 12px;
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		transform: rotate(-45deg);
 	}
 /*** index header end ***/
 
@@ -311,15 +311,15 @@ a, a:link, a:visited {
 		}
 		.backButton_bar_one {
 			top: 6px;
-			-webkit-transform: rotate(45deg);
-			-moz-transform: rotate(45deg);
-			transform: rotate(45deg);
-		}
-		.backButton_bar_two {
-			top: 18px;
 			-webkit-transform: rotate(-45deg);
 			-moz-transform: rotate(-45deg);
 			transform: rotate(-45deg);
+		}
+		.backButton_bar_two {
+			top: 18px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			transform: rotate(45deg);
 		}
 		.singleTitle p {
 			font-size: 32px;
