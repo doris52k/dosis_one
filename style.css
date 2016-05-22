@@ -487,36 +487,3 @@ a, a:link, a:visited {
 
 }
 
-@media (min-width: 1560px) and (min-height: 670px) {
-
-	/***** header *****/
-	.top_column {
-		width: 1480px;
-	}
-	.top_column_close {
-		width: 1480px;
-	}
-	/***** header end *****/
-
-
-	/***** content *****/
-	#index_content {
-		width: 1560px;
-	}
-	/***** content end *****/
-
-
-	/***** footer *****/
-	#footer {
-		width: 1480px;
-	}
-	/***** footer end *****/
-
-
-	/*** single content article ***/
-	.single_article {
-		width: 1480px;
-	}
-	/*** single content article end ***/
-
-}
