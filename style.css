@@ -352,6 +352,7 @@ a, a:link, a:visited {
 	}
 	.index_info a {
 		font-size: 13px;
+		font-weight: 400;
 	}
 	/*** content end ***/
 
