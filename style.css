@@ -465,7 +465,7 @@ a, a:link, a:visited {
 	.index_article_thumb {
 		-webkit-transition: background-size 0.35s ease-in-out;
 		-moz-transition: background-size 0.35s ease-in-out;
-		transition: background-size 0.35s ease-in-out;
+		transition: background-size 1s ease-in-out;
 	}
 	.index_article_thumb:hover {
 		background-size: 110%;
